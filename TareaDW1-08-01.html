@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio/Tarea DW1-08-01 Elisa Monzón</title>
+	<link rel="stylesheet" type="text/css" href="EjercicioDW1-08-01.css">
+</head>
+<body>
+	
+	<h1>Selectores para textos CSS</h1> <!-- Id = Descripcion, css color = darkturquoise-->
+	<p id="Descripcion">In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+	
+	<section class="dotclass"> <!-- Class = dotclass, css color = deeppink  -->
+		<h2>.Class</h2>
+		<p>The .class selector selects elements with a specific class attribute.</p>
+	</section>
+
+	<article> <!-- Id = Mayor qué, css color = coral. Padre article, hijo p  -->
+		<h2>Mayor qué > </h2>
+		<p>
+			The element>element selector is used to select elements with a specific parent.
+			Note: Elements that are not directly a child of the specified parent, are not selected.
+		</p>
+	</article>
+
+	<section> <!-- :Hover, css color = green. Al mover el cursor sobre el título el color se vuelve verde -->
+		<h3>:Hover</h3>
+		<p>
+			The :hover selector is used to select elements when you mouse over them.
+		</p>
+	</section>
+
+	<section> <!-- Atributo específico "Target = _blank", css color = blue-->
+		<h2>Corchetes []</h2>
+		<p>The [attribute] selector is used to select elements with the specified attribute.</p>
+		<a href="https://www.w3schools.com/cssref/sel_attr_begin.asp" target="_blank">[attribute]</a>
+	</section>
+
+	<div> <!-- Selecciona al elemento p que está dentro del elemento div -->
+		<h2>Espacio en blanco</h2>
+		<p>The <i>element element</i> selector is used to select elements inside elements.</p>
+	</div>
+
+	<section><!-- En este caso, a pesar de tener un id y declarar su estilo de letra, se tomó el estilo general para todos los párrafos debido al !important -->		
+		<h2>!Important</h2>
+		<p id="important">When the CSS1 specification was drafted in the mid to late 90s, it introduced !important declarations that would help developers and users easily override normal specificity when making changes to their stylesheets. </p> 
+	</section>
+	
+
+
+
+</body>
+</html>

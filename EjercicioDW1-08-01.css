@@ -1,0 +1,46 @@
+h1, h2, h3 /* Color para todos los headings */
+{
+	color: darkblue;
+}
+#Descripcion /* color utilizando id = Descripción L10 */
+{
+	color: darkturquoise;
+}
+.dotclass /* color para una seccion utilizando "." clase = dotclass L12 */
+{
+	color: deeppink;
+
+}
+article > p /* color utilizado para el parrafo dentro de article L17 */ 
+{
+	color: coral;
+}
+h3:hover /* color utilizado para el movimiento del cursor sobre el titulo L26 */ 
+{
+	color: green;
+}
+a[target] /* color utlizado para el target de a L35*/
+{
+	color: blue;
+}
+a[target]:hover
+{
+	color: seagreen;
+}
+div p /* color utilizado para el elemento p dentro del elemento div L38*/
+{
+	color: mediumvioletred;
+}
+
+
+/* En este caso se declaro un id #important para elemento p, sin embargo se siguió tomando el estilo de la letra Times new Roman por ser !important */
+p
+{
+	font-family: times new roman !important;
+}
+
+#important
+{
+	font-family: arial;
+}
+
